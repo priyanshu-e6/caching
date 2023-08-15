@@ -13,12 +13,6 @@ public class Main {
         //cache miss. item absent. put at end of queue representing least accessed item.
         //if cache full. remove from end of queue and put the new item at start.
 
-        lru_cache lru = new lru_cache(4);
-        lru.access(1);
-        lru.access(2);
-        lru.access(1);
-        lru.access(3);
-
 
 
         }
